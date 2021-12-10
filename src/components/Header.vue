@@ -1,7 +1,7 @@
 <template>
 <div class="header">
   <div class="header_name">Anastasiia Pullinen</div>
-  <div class="header_logo">
+  <div class="header_logo" v-if="$route.name === 'Home'">
     <img src="../assets/logo.png" alt="logo" class="logo_img">
     <p class="logo_text">Сказки на ночь</p>
   </div>

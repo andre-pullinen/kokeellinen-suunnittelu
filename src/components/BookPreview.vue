@@ -1,7 +1,7 @@
 <template>
 <div>
   <div>
-    <button><router-link to="three-pigs">Читать</router-link></button>
+    <router-link :to="{ name: 'ThreePigs' }">Читать</router-link>
   </div>
 </div>
 </template>

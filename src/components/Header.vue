@@ -1,26 +1,21 @@
 <template>
 <div class="header">
-  <div class="header_name">Anastasiia Pullinen</div>
-  <div class="header_logo" v-if="$route.name === 'Home'">
-    <img src="../assets/logo.png" alt="logo" class="logo_img">
-    <p class="logo_text">Сказки на ночь</p>
+  <div class="header_name">
+    <span v-wave class="header_name-text" @click="$router.push({ name: 'Home' })">Anastasiia Pullinen</span>
   </div>
-  <div class="header_lang">
-    <div class="lang --lang-fi">
-      <img src="../assets/fi.png" alt="" class="lang_img">
-      <span>suomi</span>
-    </div>
-    <div class="lang --lang-ru">
-      <img src="../assets/ru.png" alt="" class="lang_img">
-      <span>русский</span>
-    </div>
+  <div class="header_logo">
+    <img src="../assets/logo.png" alt="logo" class="logo_img" v-if="$route.name === 'Home'">
+    <p class="logo_text" v-if="$route.name === 'Home'">{{ $t('home.welcome') }}</p>
   </div>
+  <language-switcher />
 </div>
 </template>
 
 <script>
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 export default {
-  name: 'Header'
+  name: 'Header',
+  components: { LanguageSwitcher }
 }
 </script>
 
@@ -29,22 +24,25 @@ export default {
   100%
     transform: rotate(360deg)
 .header
-  margin-top: 40px
+  margin: 40px 0
   display: flex
   justify-content: space-around
+  width: 80%
   &_name
     color: #0C6291
-    margin: 0
     flex: 1
+    padding: 10px
+    margin: -10px
+    text-align: left
+    vertical-align: middle
+    &-text
+      padding: 10px
+      margin: 10px
+      cursor: pointer
+      display: inline-block
   &_logo
     position: relative
     flex: 2
-  &_lang
-    display: flex
-    color: #000004
-    flex: 1
-    align-items: flex-start
-    justify-content: space-evenly
 .logo
   &_img
     width: 484px
@@ -61,11 +59,4 @@ export default {
     text-transform: uppercase
     width: 130px
     margin: 0
-.lang
-  display: flex
-  align-items: center
-  &_img
-    width: 30px
-    height: 30px
-    margin: 0 10px
 </style>

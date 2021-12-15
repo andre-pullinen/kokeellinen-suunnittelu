@@ -1,8 +1,8 @@
 <template>
-<div class="header">
-  <div class="header_image">
-    <img :src="bookImage" alt="">
-    <span>{{bookName}}</span>
+<div class="book_header">
+  <div class="book_header-image">
+    <img :src="bookImage" :alt="bookName">
+    <span class="book_header-name">{{bookName}}</span>
   </div>
   <div class="menu">
     <div class="menu_read menu_item" @click="$emit('play')">
@@ -33,13 +33,22 @@ export default {
 </script>
 
 <style lang="sass">
-.header
+.book_header
   width: 100%
   position: relative
-  &_image
+  &-name
+    font-size: 22px
+    color: white
+    transform: translate(-50%, -50%)
+    top: 50%
+    position: absolute
+    text-transform: uppercase
+    text-shadow: 0 0 5px black
+  &-image
     background-color: #979797
     width: 100%
     height: 350px
+    position: relative
 .menu
   background-image: linear-gradient(360deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
   position: absolute

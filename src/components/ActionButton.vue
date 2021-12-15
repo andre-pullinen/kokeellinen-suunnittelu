@@ -47,4 +47,5 @@ export default {
     width: 355px
     display: inline-block
     margin: 20px
+    filter: hue-rotate(144deg)
 </style>

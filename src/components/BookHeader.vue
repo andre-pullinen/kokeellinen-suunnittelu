@@ -7,19 +7,19 @@
   <div class="menu">
     <div class="menu_read menu_item" @click="$emit('play')">
       <img src="../assets/read.png" alt="" class="icon">
-      <span></span>
+      <span>{{ $t('book-header.play') }}</span>
     </div>
     <div class="menu_listen menu_item" @click="$emit('listen')">
       <img src="../assets/listen.png" alt="" class="icon">
-      <span></span>
+      <span>{{ $t('book-header.listen') }}</span>
     </div>
     <div class="menu_watch menu_item" @click="$emit('watch')">
       <img src="../assets/watch.png" alt="" class="icon">
-      <span></span>
+      <span>{{ $t('book-header.watch') }}</span>
     </div>
     <div class="menu_download menu_item" @click="$emit('download')">
       <img src="../assets/download.png" alt="" class="icon">
-      <span></span>
+      <span>{{ $t('book-header.download') }}</span>
     </div>
   </div>
 </div>
@@ -61,11 +61,20 @@ export default {
   justify-content: space-around
   &_item
     align-items: center
+    transition: all 0.3s
+    cursor: pointer
+    &:hover
+      transform: scale(1.3)
+    & span
+      color: white
+      display: inline-block
+      vertical-align: middle
+      margin-left: 10px
+      font-size: 1.3em
 .icon
   width: 60px
   height: 60px
   filter: invert(1)
-  transition: all 0.3s
-  &:hover
-    transform: scale(1.3)
+  display: inline-block
+  vertical-align: middle
 </style>

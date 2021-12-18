@@ -1,6 +1,12 @@
 <template>
   <div>
-    <book-header book-name="Три поросёнка" book-image="#" v-on:play="startBook" />
+    <book-header
+      book-name="Три поросёнка"
+      book-image="#"
+      v-on:play="startBook"
+      v-on:listen="window.open('https://www.youtube.com/watch?v=EykBKFvvYd8')"
+      v-on:watch="window.open('https://www.youtube.com/watch?v=EykBKFvvYd8')"
+    />
     <div class="book" ref="book">
       <img src="#" alt="" ref="bookImage">
       <div class="book__text" ref="bookText">

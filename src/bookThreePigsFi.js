@@ -2,15 +2,15 @@ const threePigs = {
   texts: [
     [
       'Olipa kerran kolme pientä porsasta, veljestä, jotka olivat samanpituisia, pyöreitä, vaaleanpunaisia ja samoilla iloisilla hännillä. ' +
-      'Nimetkin kuulosti samanlaiselta. Heidän nimensä olivat: Nif-Nif, Nuf-Nuf и Naf-Naf.',
-      'Koko kesän ajan porsaat hyppivät vihreällä ruoholla, nauttivat auringon paistetta ja laiskuttelivat lätäköissä. Mutta kohta tuli syksy:',
+      'Nimetkin kuulostivat samanlaiselta. Heidän nimensä olivat: Nif-Nif, Nuf-Nuf и Naf-Naf.',
+      'Koko kesän ajan porsaat hyppivät vihreällä ruoholla, nauttivat auringon paistetta ja laiskottelivat lätäköissä. Mutta kohta tuli syksy:',
       '- Meidän pitää miettiä talvea, - sanoi Naf-Naf kerran veljilleen herätessään aikaisin aamulla. - Minä tärisen kylmyydestä. ' +
       'Rakennetaan talo ja vietetään talvi yhdessä saman lämpimän katon alla.'
     ], // 0
     [
       'Mutta hänen veljensä eivät halunneet aloittaa työt.',
-      '- Kaikkeen vielä ehtii ja myös talveenkin on aikaa. Me voidaan vielä pitää hauskaa, olla ulkona ja pelata, - sanoi Nif-Nif ja teki kuperkeikan.',
-      '- Tarvittaessa rakennan itselleni talon, sanoi Nuf-Nuf ja makasi lätäköön.',
+      '- Kaikkeen vielä ehtii ja myös talveenkin on aikaa. Me voimme vielä pitää hauskaa, olla ulkona ja pelata, - sanoi Nif-Nif ja teki kuperkeikkan.',
+      '- Tarvittaessa rakennan itselleni talon, sanoi Nuf-Nuf ja makasi lätäkköön.',
       '- Minäkin, - sanoi Nif-Nif.',
       '- Ihan miten haluatte. Rakennan talon itselleni, - sanoi Naf-Naf.',
       'Nif-Nif ja Nuf-Nuf päättivät ettei kiirettä ole ja pelasivat vaan omia porsaiden peleja; hyppivät ja tekivät kuperkeikoja koko ajan.',
@@ -21,7 +21,7 @@ const threePigs = {
     ], // 1
     [
       'Nif-Nif päätti, että on helpompi ja nopeampi on tehdä talon olkeista. Ketään kysymättä hän teki näin. ' +
-      'Illaksi hänen talo oli jo valmis. Nif-Nif laitoi katolle viimeisen oljen ja ihan tyytyväisenä ' +
+      'Illaksi hänen talonsa oli jo valmis. Nif-Nif laittoi katolle viimeisen oljen ja ihan tyytyväisenä ' +
       'omasta talosta alkoi laulamaan:',
       '' +
       'Voisit käydä koko maailman ympäri',
@@ -29,11 +29,11 @@ const threePigs = {
       'Parempaa taloa kuin tämä,',
       'Et löydä, et löydä!',
       '',
-      'Laulaamalla tätä laulua, Hän lähti Nuf-Nufin luo. Lähellä Nuf-Nuf rakensi myös oman talon. ' +
+      'Laulamalla tätä laulua, Hän lähti Nuf-Nufin luo. Lähellä Nuf-Nuf rakensi myös oman talon. ' +
       'Hän oli yrittänyt lopettaa tylsän ja epämielenkiintoisen teon mahdollisimman nopeasti. Ensin kuten hänen veljensä ' +
       'hän halusi rakentaa oman talon oljista. Mutta sitten hän päätti, että semmosessa talossa olisi liian kylmää talvella. ' +
-      'Talo olisi kestävämpää ja lämpimämpää, jos sen rakentaisiin oksista. Näin hän päättikin tehdä.. ' +
-      'Hän löi paaluja maahan, kietoi ne oksilla, katoi kuivia lehtiä katolle, ja illalla talo oli valmis. ' +
+      'Talo olisi kestävämpää ja lämpimämpää, jos sen rakenteisiin oksista. Näin hän päättikin tehdä.. ' +
+      'Hän löi paaluja maahan, kietoi ne oksilla, kaatoi kuivia lehtiä katolle, ja illalla talo oli valmis. ' +
       'Nuf-Nuf käveli ylpeänä talon ympäri useamman kerran ja alkoi laulamaan:',
       '',
       'Minulla on hyvä talo,',
@@ -41,26 +41,26 @@ const threePigs = {
       'Minä en pelkää sadetta, eikä ukkosta,',
       'Ei sadetta, eikä ukkosta, ei sadetta, eikä ukkosta!',
       '',
-      'Hän ei ehtinyt laulamaan loppuun kun Nif-Nif juoksisi pensaan takaa.',
+      'Hän ei ehtinyt laulamaan loppuun, kun Nif-Nif juoksisi pensaan takaa.',
       '',
-      '- No niin, sinunkin talo on nyt valmis! - sanoi Nif-Nif veljelle. - Minähän sanoin, että me saadaan hommat nopeasti valmiiksi!' +
+      '- No niin, sinunkin talosi on nyt valmis! - sanoi Nif-Nif veljelle. - Minähän sanoin, että me saadaan hommat nopeasti valmiiksi!' +
       'Nyt me ollaan vapaat, voidaan tehdä vapaasti mitä haluamme ja mitä keksimme!',
       '- Mennään Naf-Nafin luokse katsomaan minkälaisen talon hän oli rakentanut! – sanoi Nuf-Nuf. - Emme ole nähneet häntä pitkään!',
-      '- Mennään katsomaan! - Nif-nif myönsi.',
+      '- Mennään katsomaan! - Nif-Nif myönsi.',
       'Naf-Naf oli jo rakentamassa talonsa jo useampia päiviä. Hän toi kivet, sekoitti savea ja nyt kaiken rauhassa' +
       ' rakensi itsellesi pysyvän ja vahvan talon, jossa hän voisi piilottaa tuulesta, sadesta ja pakkasesta. Hän teki ' +
       'taloon painavan oven tammista lukkineen, niin ettei susi lähimmästä metsästä voisi päästää hänen taloon.',
       '',
       'Nif-Nif ja Nuf-Nuf kerkesivät nähdä rakentamisprosessin.',
       '',
-      '- Mitä olet rakentamassa? - ylläyytneenä  Nif-Nif ja Nuf-Nuf huusivat samaan aikaan. - Mitä tämä on? Onko se talo ' +
+      '- Mitä olet rakentamassa? - yllättyneenä  Nif-Nif ja Nuf-Nuf huusivat samaan aikaan. - Mitä tämä on? Onko se talo ' +
       'possulle vai linna?'
     ], // 2
     [
       '- Talon possulle on oltava linna! - rauhallisesti vastaisi heille Naf-Naf ja jatkoi työt.',
-      '- Vai aiotko käydä sotaa jonkun kanssa? -Nif-Nif  murahi iloisesti ja iski silmää Nuf-Nufin suuntaan. ',
+      '- Vai aiotko käydä sotaa jonkun kanssa? -Nif-Nif  murahti iloisesti ja iski silmää Nuf-Nufin suuntaan. ',
       '',
-      'Ja molemmat veljet olivat niin ilohtuneita, että heidän röhkäisy kuului kauas nurmikon yli. ' +
+      'Ja molemmat veljet olivat niin ilahtuneita, että heidän röhkäisy kuului kauas nurmikon yli. ' +
       'Mutta Naf-Naf ikään kuin mitään ei olisi tapahtunut, jatkoi talonsa kiviseinän rakentamista, laulamalla hiljaisesti:' +
       '',
       'Mikään maailman petoeläin,',
@@ -70,17 +70,17 @@ const threePigs = {
       '',
       'Olen kaikista viisain,',
       'Kaikista viisain, kaikista viisain!',
-      'Rakennan talon kiveistä,',
-      'Kiveistä, kiveistä!',
+      'Rakennan talon kivistä,',
+      'Kivistä, kivistä!',
       '',
       '- Mistä petoeläimestä hän puhuu? - kysyi Nif-Nif Nuf-Nufilta.',
       '- Mistä petoelämästä puhut? - kysyi Nuf-Nuf Naf-Nafilta.',
-      '- Puhun susista! - vastasi Naf-Naf ja laittoi seinälle vielä yden kiven.',
+      '- Puhun susista! - vastasi Naf-Naf ja laittoi seinälle vielä yhden kiven.',
       '- Katsokaa, hän pelkää susia! - sanoi Nif-Nif.',
-      '- Minkäläiset susit täällä voi olla? - kysyi Nif-Nif.',
+      '- Minkälaiset sudet täällä voi olla? - kysyi Nif-Nif.',
       '- Täällä ei ole yhtäkään susia! Hän on vain pelkuri! - lisäsi Nuf-Nuf.',
       '',
-      'Ja molemmat possut aloivvat laulamaan ja tanssimaan:,',
+      'Ja molemmat possut alkoivat laulamaan ja tanssimaan:,',
       '',
       'Emme pelkää harmaata susia,',
       'Harmaata susia, harmaata susia!',
@@ -93,19 +93,19 @@ const threePigs = {
     ], // 3
     [
       'Ja kaksi rohkeaa veljeä lähti kävelemään. Matkalla he lauloivat ja tanssivat, ja kun he tulivat metsään, he pitivät niin paljon melua, ' +
-      'että herättivät susin, joka nukkui mäntyn alla.' +
+      'että herättivät susin, joka nukkui männyn alla.' +
       '\n',
       '- Mikä melu täällä on? - vihainen ja nälkäinen susi murahti tyytymättömästi ja lähti siihen paikkaan josta kuulisi' +
       'kahden pienen tyhmän possun kirkumista ja murinaa.',
-      '- Minkäläiset sudet täällä voisi olla! - sillä ajalla sanoi Nif-Nif, joka oli nähnyt susia vain kuvissa.',
+      '- Minkälaiset sudet täällä voisi olla! - sillä ajalla sanoi Nif-Nif, joka oli nähnyt susia vain kuvissa.',
       '- Mehän otamme häntä nenästä kiinni! - lisäsi Nuf-Nuf, joka myöskään ei ollun nähnyt elävää susia.',
-      '- Kaadetaan hänet alas ja sidotaan, ja potkitaan jaloilla, näin! – ihkutteli Nif-Nif.',
+      '- Kaadetaan hänet alas ja sidotaan, ja potkitaan jaloilla, näin! – ilkutteli Nif-Nif.',
       '\n',
       'Ja yhtäkkiä he näkivät todellisen elävän suden! Hän seisoi suuren puun takana ja näytti niin pelottavalta, ' +
-      'hänellä oli niin vihakset silmät ja isot hampaat, että kylmä hiki ilmestyi pitkin Nif-Nifin ja Nuf-Nufin selkiä ' +
-      'ja heidän hännät alkoi tärisee. Porsaat eivät pystyneet edes liikkumaan pelosta.',
+      'hänellä oli niin vihaiset silmät ja isot hampaat, että kylmä hiki ilmestyi pitkin Nif-Nifin ja Nuf-Nufin selkiä ' +
+      'ja heidän häntänsä alkoi tärisee. Porsaat eivät pystyneet edes liikkumaan pelosta.',
       'Susi valmistautui hyppimään, napsautti hampaitaan, räpäytti oikealla silmällä, mutta possuille yhtäkkiä tuli järki ja huutaen' +
-      ' ne pakeni pois metsästä. Heidän ei ole koskaan tarvinnut juosta näin nopeasti! Vilkkuvat kantapäät ja kohotettuja ' +
+      ' he pakenivat pois metsästä. Heidän ei ole koskaan tarvinnut juosta näin nopeasti! Vilkkuvat kantapäät ja kohotettuja ' +
       'pölypilviä näkyi vaan ja jokainen porsas yritti rynnätä omaan taloonsa piiloon. '
     ], // 04
     [
@@ -119,18 +119,18 @@ const threePigs = {
       'Mutta peloissa oleva Nif-Nif ei voinut enää vastata.',
       '\n',
       'Silloin susi alkoi puhaltaa: "U-u-u-u-u-u!" Oljet lensivät talon katolta, talon seinät tärisivät. ' +
-      'Susi hengitti syvään vielä kerran ja puhalsi toisen kerran: "U-u-u-u-u-u!". Kun susi oli puhaltanut kolmannen kertan - ' +
+      'Susi hengitti syvään vielä kerran ja puhalsi toisen kerran: "U-u-u-u-u-u!". Kun susi oli puhaltanut kolmannen kertaan - ' +
       'talo romahti ja sen palat lensi kaikkiin suuntiin, ikään kuin hurrikaanissa. Susi oli napsahtanut hampaitaan  ' +
       'pienen possun kantapäiden edessä, mutta Nif-Nif taitavasti välttyi pakoon ja lähti juoksemaan. Minuutin päästä hän oli jo Nuf-Nufin oven edessä.',
       '\n',
-      'Just silloin kun veljet kerkesivät sulkea ovet lukkon, susi sanoi:',
+      'Just silloin kun veljet kerkesivät sulkea ovet lukkoon, susi sanoi:',
       '- Nyt syön teidät molemmat!',
       '\n',
       'Nif-Nif ja Nuf-Nuf peloissa katsoivat toistensa, mutta susi oli liian väsynyt ja siksi hän oli päättänyt toimia ovelasti.',
       '\n',
       '- Minä vaihdoin mielen! - sanoi hän niin kovalla äänellä, että häntä kuulisi koko talossa. – Minä en aio syödä noita laihoja possuja!' +
       ' Lähden kotiin.' +
-      '- Kuulitko? - kysui Nif-Nif Nuf-Nufilta. - Hän sanoi, ettei aikoo syödä miedät! Me olemme laihat!',
+      '- Kuulitko? - kysyi Nif-Nif Nuf-Nufilta. - Hän sanoi, ettei aikoo syödä meidät! Me olemme laihat!',
       '- Tämä on oikein hyvä! - sanoi Nuf-Nuf ja saman tien lopetti tärisemään. '
     ], // 05
     [
@@ -146,17 +146,17 @@ const threePigs = {
       '- Miten ovelasti minä onnistuin harhauttaa pieniä tyhmiä possuja!',
       '\n',
       'Kun possut olivat täysin rauhoittuneita, susi otti lampaan turkin ja varovasti hiipi talon viereen. ' +
-      'Oven edessä hän laitoi turkin päälle ja hiljaisesti koputti oveen.',
+      'Oven edessä hän laittoi turkin päälle ja hiljaisesti koputti oveen.',
       'Nif-Nif ja Nuf-Nuf säikähtivät.',
       '\n',
-      '- Kuka on siellä? - he kysyivät, ja taas heidän hännät alkoi tärisee.',
+      '- Kuka on siellä? - he kysyivät, ja taas heidän häntänsä alkoi tärisee.',
       '- Olen pieni lammas! - susi vastasi kapealla ja vieraalla äänellä. ',
       '- Päästäkää minut yöpymään, minä olen kadonnut laumasta ja muutenkin niin väsynyt!',
       '- Lampaan voi päästää sisään! - sanoi Nuf-Nuf. - Lammas ei ole susi! '
     ], // 06
     [
-      'Mutta kun possut avasi pikkasen ovea, huomasivat, ettei se ollut lammas, vaan vihaimem susi. ',
-      'Veljekset sulki oven ja pitivät kiinni omalla painolla, ettei peloittava peto pääsisi sisään.',
+      'Mutta kun possut avasi pikkasen ovea, huomasivat, ettei se ollut lammas, vaan vihainen susi. ',
+      'Veljekset sulki oven ja pitivät kiinni omalla painolla, ettei pelottava peto pääsisi sisään.',
       '\n',
       'Susi muuttui vihaiseksi. Hän ei onnistunut huijaamaan possuja! Hän heitti pois lampaan turkin ja kiljui:',
       '- Hei, odota! Tästä ovesta ei jää kohta mitään!',
@@ -171,7 +171,7 @@ const threePigs = {
       'hän ehti nopeuttaa tahtia.',
       '\n',
       'Susikin nopeutti tahtia. Hän oli varma siitä, että täällä kertaa possut eivät juoksee hänestä karkuun. Mutta ei täälläkään kertaa ollut onnistunut. ' +
-      'Possut juoksivat nopeasti ison omenapuun ohi, koskematta sitä. Mutta susi ei ehtinyt kääntyä ja törmäsi puuhun, jonka omenat putoivat susiin. ' +
+      'Possut juoksivat nopeasti ison omenapuun ohi, koskematta sitä. Mutta susi ei ehtinyt kääntyä ja törmäsi puuhun, jonka omenat putosivat susiin. ' +
       'Yksi kova omena osui otsaan just silmien väliin, jonka seurauksena siihen tuli iso mustelma. ' +
       '\n',
       '\n',
@@ -181,7 +181,7 @@ const threePigs = {
     ], // 07
     [
       'Naf-Naf heti sai selvää, että heidän perään juoksee susi. Mutta hänen ei tarvinnut pelätä mitään omassa kivitalossa .' +
-      ' Hän nopesti sulki oven lukkoon, istui tuoliin ja alkoi laulamaan:',
+      ' Hän nopeasti sulki oven lukkoon, istui tuoliin ja alkoi laulamaan:',
       '\n',
       'Mikään maailman eläin,',
       'Ei pääsisi tämän oven ohi',
@@ -194,31 +194,31 @@ const threePigs = {
       '- No niin! Nyt minä syön teidät! ',
       '\n',
       '- Yritä vaan! - vastasi oven takaa Naf-Naf istuen penkillä. Hän tiesi, että hänelle ja hänen veljille ' +
-      'ei tarvitse olla peloissaan mistään hyvässä kivitalossa. Silloin susi oli ottanut mahdollisimman paljon ilmaa keuhkoihin ja puhaltanut niin kovaa kuin vaan pystytnyt! ' +
+      'ei tarvitse olla peloissaan mistään hyvässä kivitalossa. Silloin susi oli ottanut mahdollisimman paljon ilmaa keuhkoihin ja puhaltanut niin kovaa kuin vaan pystynyt! ' +
       'Mutta kuinka hän ei puhaltaisi, ei kumpikaan kivi heilahtanut, mitä teki sudesta tosi vihainen. ' +
-      'Talo pysyi paikallaan kuin linna. Sitten susi alkoi iskeä oveen useampaa kertaa. Mutta ovi pysyi tiukkaasti kiinni. ' +
+      'Talo pysyi paikallaan kuin linna. Sitten susi alkoi iskeä oveen useampaa kertaa. Mutta ovi pysyi tiukasti kiinni. ' +
       'Vihasta susi alkoi raapia ovea ja järsiä kiviä, joista talo oli rakennettu.' +
       'Mutta se vaan murtui itsellesi kynnet ja hajotti hampaat. Nälkäiselle ja vihaiselle sudella ei ollut muuta vaihtoehtoa kuin lähteä pois. ' +
       '',
-      'Pään nostaessa ja yhtäkkiä huomasi ison ja kapean piippun katolla.',
+      'Pään nostaessa ja yhtäkkiä huomasi ison ja kapean piipun katolla.',
       ' \n',
-      '- Jaahas! Tästä piippusta minä pääsen taloon! Ilohtui susi. . ',
+      '- Jaahas! Tästä piipusta minä pääsen taloon! Ilahtui susi. . ',
       '\n',
-      'Hän varovasti astui kattoon ja alkoi kuunnella. Talossa oli hiljasta. No niin, tänään minä syönkin pikku possuja! ' +
+      'Hän varovasti astui kattoon ja alkoi kuunnella. Talossa oli hiljaista. No niin, tänään minä syönkin pikku possuja! ' +
       '- Susi oli miettinyt ja nuoli huulensa ja kiipesi piippuun. '
     ], // 08
     [
-      'Mutta, kun hän alkoi laskea piippua pitkin, possut kuuli hörinää. ' +
-      'Ja kun padan kannen pääle alkoi pudota nokea, viisas Naf-Naf heti hoksasi mitä on tapahtuu. ' +
+      'Mutta, kun hän alkoi laskea piippua pitkin, possut kuulivat hörinää. ' +
+      'Ja kun padan kannen päälle alkoi pudota nokea, viisas Naf-Naf heti hoksasi mitä tapahtuu. ' +
       'Hän nopeasti revähti kattilan luo, jossa oli kiehuva vesi ja veti pois kannen.',
       '\n',
       '- Tervetuloa! - sanoi Naf-Naf ja iski silmällä veljekselle.',
       '\n',
       'Possuille ei tarvinnut odottaa pitkään. Musta, kuin nuohooja susi kaatui suoraan kattilaan. ' +
-      'Silmät valuivat ulos, sen turkkinsa nousi kaikkiin suuntiin. Villi huudon kannsa susi lensi ulos kiehuvasta vedestä' +
+      'Silmät valuivat ulos, sen turkkinsa nousi kaikkiin suuntiin. Villi huudon kanssa susi lensi ulos kiehuvasta vedestä' +
       'takaisin katolle, laski sillä maahan, pyöri pään yli neljää kertaa, ja pakeni takaisin metsään.',
       'Ja kolme veljestä, kolme pikku possua seurasivat häntä katseillaan ja iloitsivat ' +
-      'että he onnistuivat antaa hyvän opetuksen vihaiselle pedolle..',
+      'että he onnistuivat antaa hyvän opetuksen vihaiselle pedolle.',
       '\n',
       'Mikään maailman eläin,',
       'Ei pääsisi tämän oven ohi',
@@ -231,14 +231,14 @@ const threePigs = {
       'Susi metsästä,',
       'Ei koskaan, ei koskaan',
       'Ei palaa meille tänne,',
-      'Meille tänneа, meille tänne!',
+      'Meille tänne, meille tänne!',
       '\n',
       'Tästä ajasta veljet aloittivat asua yhdessä yhden katon alla. '
     ], // 09
     [
-      'Mutta, kun hän alkoi laskea piippua pitkin, possut eivät kuullu hörinää.',
+      'Mutta, kun hän alkoi laskea piipua pitkin, possut eivät kuullu hörinää.',
       'Possuille ei tarvinnut odottaa pitkään. Musta, kuin nuohooja susi kaatui suoraan kotiin.',
-      'Hänen silmät olivat vihaiset, sen turkkinsa nousi kaikkiin suuntiin. Villi huudon kannsa susi hyppäisi possujen suuntaan.',
+      'Hänen silmät olivat vihaiset, sen turkkinsa nousi kaikkiin suuntiin. Villi huudon kanssa susi hyppäisi possujen suuntaan.',
       '\n',
       'Ja kolme veliä, kolme pientä possua oli mennyt huoneen kulmaan. Heillä ei ollut vaihtoehtoa mihin voisi lähteä. Susi söi heidät. '
     ], // 10
@@ -248,7 +248,7 @@ const threePigs = {
       'taloon painavan oven tammista lukkineen, niin ettei susi lähimmästä metsästä voisi päästää heidän taloon.'
     ], // 11
     [
-      'Mutta kun possut avasi pikkasen ovea, huomasivat, ettei se ollut lammas, vaan vihaimem susi. ',
+      'Mutta kun possut avasi pikkasen ovea, huomasivat, ettei se ollut lammas, vaan vihainen susi. ',
       'Veljekset sulki oven ja pitivät kiinni omalla painolla, ettei peloittava peto pääsisi sisään,',
       'mutta susi oli paljon vahvempi ja hänellä oli kovaa nälkää.',
       '\n',
@@ -276,7 +276,7 @@ const threePigs = {
       '',
       'Nif-Nif ja Nuf-Nuf kerkesivät nähdä rakentamisprosessin.',
       '',
-      '- Mitä olet rakentamassa? - ylläyytneenä  Nif-Nif ja Nuf-Nuf huusivat samaan aikaan. - Mitä tämä on? Onko se talo ' +
+      '- Mitä olet rakentamassa? - yllättyneenä  Nif-Nif ja Nuf-Nuf huusivat samaan aikaan. - Mitä tämä on? Onko se talo ' +
       'possulle vai linna?'
     ], // 13
     [
@@ -288,7 +288,7 @@ const threePigs = {
       '\n',
       '- Minä vaihdoin mielen! - sanoi hän niin kovalla äänellä, että häntä kuulisi koko talossa. – Minä en aio syödä noita laihoja possuja!' +
       ' Lähden kotiin.' +
-      '- Kuulitko? - kysui Nif-Nif Nuf-Nufilta. - Hän sanoi, ettei aikoo syödä miedät! Me olemme laihat!',
+      '- Kuulitko? - kysyi Nif-Nif Nuf-Nufilta. - Hän sanoi, ettei aikoo syödä meidät! Me olemme laihat!',
       '- Tämä on oikein hyvä! - sanoi Nuf-Nuf ja saman tien lopetti tärisemään. '
     ], // 14
     [

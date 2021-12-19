@@ -12,9 +12,9 @@
     <div class="book" ref="book">
       <img src="#" alt="" ref="bookImage">
       <div class="book__text" ref="bookText">
-        <p v-for="(item, index) in bookText" :key="index">
+        <p v-for="(item, index) in bookText" :key="index" :class="isImage(item) ? 'p-image' : ''">
           <span v-if="isText(item)">{{ item }}</span>
-          <img v-if="isImage(item)"  alt="" :src="require(`../assets/book/ThreePigs/story/${getImagePath(item)}`)"/>
+          <img class="text-image" v-if="isImage(item)"  alt="" :src="require(`../assets/book/ThreePigs/story/${getImagePath(item)}`)"/>
         </p>
       </div>
       <div class="book-actions" ref="bookActions">
@@ -74,8 +74,13 @@ export default {
   &__text
     text-align: left
     font-size: 1.2em
-    padding: 1.5em 3em
+    padding: 1.5em 4em
     p
       margin: 0
       min-height: 1.2em
+.p-image
+  text-align: center
+  margin: 10px 0 !important
+.text-image
+  width: 45%
 </style>

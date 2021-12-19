@@ -1,7 +1,8 @@
 <template>
 <div class="book_header">
   <div class="book_header-image">
-    <img :src="bookImage" :alt="bookName">
+    <img :src="require(`../assets/book/${$props.bookImageRequire}.png`)" :alt="bookName" v-if="bookImage === '#'">
+    <img :src="bookImage" :alt="bookName" v-if="bookImage !== '#'">
     <span class="book_header-name">{{bookName}}</span>
   </div>
   <div class="menu">
@@ -28,7 +29,7 @@
 <script>
 export default {
   name: 'BookHeader',
-  props: ['bookName', 'bookImage']
+  props: ['bookName', 'bookImage', 'bookImageRequire']
 }
 </script>
 
@@ -37,10 +38,11 @@ export default {
   width: 100%
   position: relative
   &-name
-    font-size: 22px
+    font-size: 32px
     color: white
     transform: translate(-50%, -50%)
     top: 50%
+    left: 50%
     position: absolute
     text-transform: uppercase
     text-shadow: 0 0 5px black
@@ -49,6 +51,11 @@ export default {
     width: 100%
     height: 350px
     position: relative
+    overflow: hidden
+    img
+      width: 100%
+      position: relative
+      top: -280px
 .menu
   background-image: linear-gradient(360deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
   position: absolute

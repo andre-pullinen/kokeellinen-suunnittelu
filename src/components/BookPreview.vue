@@ -1,7 +1,7 @@
 <template>
   <div class="book-preview">
     <div class="book-preview_image">
-      <img :src="require(`../assets/previews/${$props.image}.png`)" alt=""/>
+      <img :src="require(`../assets/previews/${$props.image}-${$i18n.locale}.png`)" alt=""/>
     </div>
     <div class="book-preview_description">
       <div class="book-preview_title">{{ $props.name }}</div>
@@ -43,12 +43,14 @@ export default {
     text-align: left
   &_title
     flex: 0
-    padding: 10px 0
+    padding: 0 0 10px 0
     font-size: 2em
     font-weight: bold
+    color: #0c6291
   &_text
     flex: 1
-    font-size: 1em
+    color: #000004
+    font-size: 1.2em
   &_actions
     flex: 0
 </style>

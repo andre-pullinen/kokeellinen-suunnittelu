@@ -243,5 +243,10 @@
     "8": ["Снять крышку", "А? Что?"],
     "9": [],
     "10": []
+  },
+  "urls": {
+    "listen": "https://www.youtube.com/watch?v=ESi_ytjUidM",
+    "watch": "https://www.youtube.com/watch?v=EykBKFvvYd8",
+    "download": "three-pigs-fi.pdf"
   }
 }

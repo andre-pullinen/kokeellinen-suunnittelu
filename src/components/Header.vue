@@ -38,6 +38,7 @@ export default {
     &-text
       padding: 10px
       margin: 10px
+      font-size: 1.4em
       cursor: pointer
       display: inline-block
   &_logo

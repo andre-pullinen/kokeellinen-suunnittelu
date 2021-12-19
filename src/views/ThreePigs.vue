@@ -1,16 +1,21 @@
 <template>
   <div>
     <book-header
-      book-name="Три поросёнка"
+      :book-name="$t('books.three-pigs.name')"
       book-image="#"
+      book-image-require="ThreePigs/full-preview"
       v-on:play="startBook"
-      v-on:listen="window.open('https://www.youtube.com/watch?v=EykBKFvvYd8')"
-      v-on:watch="window.open('https://www.youtube.com/watch?v=EykBKFvvYd8')"
+      v-on:listen="listenBook"
+      v-on:watch="watchBook"
+      v-on:download="downloadBook"
     />
     <div class="book" ref="book">
       <img src="#" alt="" ref="bookImage">
       <div class="book__text" ref="bookText">
-        <p v-for="(item, index) in bookText" :key="index">{{ item }}</p>
+        <p v-for="(item, index) in bookText" :key="index">
+          <span v-if="isText(item)">{{ item }}</span>
+          <img v-if="isImage(item)"  alt="" :src="require(`../assets/book/ThreePigs/story/${getImagePath(item)}`)"/>
+        </p>
       </div>
       <div class="book-actions" ref="bookActions">
         <action-button :action="index" :text="item" v-for="(item, index) in bookActions" v-on:born="(action) => doAction(action)" :key="index"></action-button>
@@ -37,10 +42,28 @@ export default {
       this.bookText = data.text
       this.bookActions = data.actions
     },
+    listenBook () {
+      window.open(this.$t('three-pigs.urls.listen'))
+    },
+    watchBook () {
+      window.open(this.$t('three-pigs.urls.watch'))
+    },
+    downloadBook () {
+      window.open(this.$t('three-pigs.urls.download'))
+    },
     doAction (index) {
       const data = BookThreePigs.doAction(index)
       this.bookText = data.text
       this.bookActions = data.actions
+    },
+    isText (thing) {
+      return !thing.startsWith('image:')
+    },
+    isImage (thing) {
+      return !this.isText(thing)
+    },
+    getImagePath (thing) {
+      return thing.slice(6)
     }
   }
 }

@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 $bg: #f3f8fa;
 $white: #fff;
-$black: #282936;
+$black: #0c6291;
 @mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
   transition: $property $duration $ease
 }
